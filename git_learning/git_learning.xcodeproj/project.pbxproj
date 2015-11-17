@@ -73,9 +73,194 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B416EA331BFACEF10011C03B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B416EA341BFACEF10011C03B /* Discover */,
+				B416EA381BFACEF10011C03B /* Home */,
+				B416EA3C1BFACEF10011C03B /* Main */,
+				B416EA421BFACEF10011C03B /* Message */,
+				B416EA461BFACEF10011C03B /* Profile */,
+			);
+			name = Classes;
+			path = git_learning/Classes;
+			sourceTree = "<group>";
+		};
+		B416EA341BFACEF10011C03B /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				B416EA351BFACEF10011C03B /* Controller */,
+				B416EA361BFACEF10011C03B /* Model */,
+				B416EA371BFACEF10011C03B /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		B416EA351BFACEF10011C03B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B416EA361BFACEF10011C03B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B416EA371BFACEF10011C03B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B416EA381BFACEF10011C03B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B416EA391BFACEF10011C03B /* Controller */,
+				B416EA3A1BFACEF10011C03B /* Model */,
+				B416EA3B1BFACEF10011C03B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B416EA391BFACEF10011C03B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B416EA3A1BFACEF10011C03B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B416EA3B1BFACEF10011C03B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B416EA3C1BFACEF10011C03B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B416EA3D1BFACEF10011C03B /* Category */,
+				B416EA3E1BFACEF10011C03B /* Controller */,
+				B416EA3F1BFACEF10011C03B /* Model */,
+				B416EA401BFACEF10011C03B /* Other */,
+				B416EA411BFACEF10011C03B /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B416EA3D1BFACEF10011C03B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B416EA3E1BFACEF10011C03B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B416EA3F1BFACEF10011C03B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B416EA401BFACEF10011C03B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B416EA411BFACEF10011C03B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B416EA421BFACEF10011C03B /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				B416EA431BFACEF10011C03B /* Controller */,
+				B416EA441BFACEF10011C03B /* Model */,
+				B416EA451BFACEF10011C03B /* View */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		B416EA431BFACEF10011C03B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B416EA441BFACEF10011C03B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B416EA451BFACEF10011C03B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B416EA461BFACEF10011C03B /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B416EA471BFACEF10011C03B /* Controller */,
+				B416EA481BFACEF10011C03B /* Model */,
+				B416EA491BFACEF10011C03B /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B416EA471BFACEF10011C03B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B416EA481BFACEF10011C03B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B416EA491BFACEF10011C03B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B472F1E51BF848AA00B7A977 = {
 			isa = PBXGroup;
 			children = (
+				B416EA331BFACEF10011C03B /* Classes */,
 				B472F1F01BF848AA00B7A977 /* git_learning */,
 				B472F20A1BF848AA00B7A977 /* git_learningTests */,
 				B472F2151BF848AA00B7A977 /* git_learningUITests */,
@@ -478,6 +663,7 @@
 				B472F21D1BF848AA00B7A977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B472F21E1BF848AA00B7A977 /* Build configuration list for PBXNativeTarget "git_learningTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +672,7 @@
 				B472F2201BF848AA00B7A977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B472F2211BF848AA00B7A977 /* Build configuration list for PBXNativeTarget "git_learningUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +681,7 @@
 				B472F2231BF848AA00B7A977 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
