@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B43133361BFE166700EFCCB5 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43133351BFE166700EFCCB5 /* MyTabBarController.m */; };
 		B472F1F31BF848AA00B7A977 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B472F1F21BF848AA00B7A977 /* main.m */; };
 		B472F1F61BF848AA00B7A977 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B472F1F51BF848AA00B7A977 /* AppDelegate.m */; };
 		B472F1FE1BF848AA00B7A977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B472F1FD1BF848AA00B7A977 /* Assets.xcassets */; };
 		B472F2011BF848AA00B7A977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B472F1FF1BF848AA00B7A977 /* LaunchScreen.storyboard */; };
 		B472F20C1BF848AA00B7A977 /* git_learningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B472F20B1BF848AA00B7A977 /* git_learningTests.m */; };
 		B472F2171BF848AA00B7A977 /* git_learningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B472F2161BF848AA00B7A977 /* git_learningUITests.m */; };
+		B4BF19C21BFB73A500A37FE7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BF19C11BFB73A500A37FE7 /* HomeViewController.m */; };
+		B4BF19C51BFB73B300A37FE7 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BF19C41BFB73B300A37FE7 /* MessageViewController.m */; };
+		B4BF19C81BFB73C500A37FE7 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BF19C71BFB73C500A37FE7 /* DiscoverViewController.m */; };
+		B4BF19CB1BFB73D200A37FE7 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BF19CA1BFB73D200A37FE7 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B43133341BFE166700EFCCB5 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		B43133351BFE166700EFCCB5 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		B43133371BFE1D6200EFCCB5 /* git_learning.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = git_learning.pch; sourceTree = "<group>"; };
 		B472F1EE1BF848AA00B7A977 /* git_learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = git_learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B472F1F21BF848AA00B7A977 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B472F1F41BF848AA00B7A977 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,6 +54,14 @@
 		B472F2121BF848AA00B7A977 /* git_learningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = git_learningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B472F2161BF848AA00B7A977 /* git_learningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_learningUITests.m; sourceTree = "<group>"; };
 		B472F2181BF848AA00B7A977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4BF19C01BFB73A500A37FE7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B4BF19C11BFB73A500A37FE7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B4BF19C31BFB73B300A37FE7 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		B4BF19C41BFB73B300A37FE7 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		B4BF19C61BFB73C500A37FE7 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		B4BF19C71BFB73C500A37FE7 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		B4BF19C91BFB73D200A37FE7 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		B4BF19CA1BFB73D200A37FE7 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,11 +92,11 @@
 		B416EA331BFACEF10011C03B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B416EA341BFACEF10011C03B /* Discover */,
 				B416EA381BFACEF10011C03B /* Home */,
-				B416EA3C1BFACEF10011C03B /* Main */,
 				B416EA421BFACEF10011C03B /* Message */,
+				B416EA341BFACEF10011C03B /* Discover */,
 				B416EA461BFACEF10011C03B /* Profile */,
+				B416EA3C1BFACEF10011C03B /* Main */,
 			);
 			name = Classes;
 			path = git_learning/Classes;
@@ -99,6 +115,8 @@
 		B416EA351BFACEF10011C03B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B4BF19C61BFB73C500A37FE7 /* DiscoverViewController.h */,
+				B4BF19C71BFB73C500A37FE7 /* DiscoverViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -130,6 +148,8 @@
 		B416EA391BFACEF10011C03B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B4BF19C01BFB73A500A37FE7 /* HomeViewController.h */,
+				B4BF19C11BFB73A500A37FE7 /* HomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,6 +190,8 @@
 		B416EA3E1BFACEF10011C03B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B43133341BFE166700EFCCB5 /* MyTabBarController.h */,
+				B43133351BFE166700EFCCB5 /* MyTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -208,6 +230,8 @@
 		B416EA431BFACEF10011C03B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B4BF19C31BFB73B300A37FE7 /* MessageViewController.h */,
+				B4BF19C41BFB73B300A37FE7 /* MessageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -239,6 +263,8 @@
 		B416EA471BFACEF10011C03B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B4BF19C91BFB73D200A37FE7 /* ProfileViewController.h */,
+				B4BF19CA1BFB73D200A37FE7 /* ProfileViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -295,6 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				B472F1F21BF848AA00B7A977 /* main.m */,
+				B43133371BFE1D6200EFCCB5 /* git_learning.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -446,8 +473,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4BF19C81BFB73C500A37FE7 /* DiscoverViewController.m in Sources */,
 				B472F1F61BF848AA00B7A977 /* AppDelegate.m in Sources */,
 				B472F1F31BF848AA00B7A977 /* main.m in Sources */,
+				B4BF19C51BFB73B300A37FE7 /* MessageViewController.m in Sources */,
+				B4BF19CB1BFB73D200A37FE7 /* ProfileViewController.m in Sources */,
+				B43133361BFE166700EFCCB5 /* MyTabBarController.m in Sources */,
+				B4BF19C21BFB73A500A37FE7 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +543,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -554,6 +587,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -578,7 +612,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/git_learning/git_learning.pch";
 				INFOPLIST_FILE = git_learning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "RJ.git-learning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -589,7 +625,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/git_learning/git_learning.pch";
 				INFOPLIST_FILE = git_learning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "RJ.git-learning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
