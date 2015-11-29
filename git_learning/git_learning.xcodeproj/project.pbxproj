@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B40711FF1C008C0B00B75C53 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B40711FE1C008C0B00B75C53 /* UIImage+Extension.m */; };
 		B43133361BFE166700EFCCB5 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43133351BFE166700EFCCB5 /* MyTabBarController.m */; };
+		B45B3CEC1C03505C008DB301 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45B3CEB1C03505C008DB301 /* HomeViewController.m */; };
+		B45B3CEF1C03509C008DB301 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45B3CEE1C03509C008DB301 /* MessageViewController.m */; };
+		B45B3CF21C0350CE008DB301 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45B3CF11C0350CE008DB301 /* DiscoverViewController.m */; };
+		B45B3CF51C0350E5008DB301 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45B3CF41C0350E5008DB301 /* ProfileViewController.m */; };
+		B45B3CF81C036607008DB301 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45B3CF71C036607008DB301 /* MyNavigationController.m */; };
 		B472F1F31BF848AA00B7A977 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B472F1F21BF848AA00B7A977 /* main.m */; };
 		B472F1F61BF848AA00B7A977 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B472F1F51BF848AA00B7A977 /* AppDelegate.m */; };
 		B472F1FE1BF848AA00B7A977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B472F1FD1BF848AA00B7A977 /* Assets.xcassets */; };
 		B472F2011BF848AA00B7A977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B472F1FF1BF848AA00B7A977 /* LaunchScreen.storyboard */; };
 		B472F20C1BF848AA00B7A977 /* git_learningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B472F20B1BF848AA00B7A977 /* git_learningTests.m */; };
 		B472F2171BF848AA00B7A977 /* git_learningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B472F2161BF848AA00B7A977 /* git_learningUITests.m */; };
-		B4BF19C21BFB73A500A37FE7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BF19C11BFB73A500A37FE7 /* HomeViewController.m */; };
-		B4BF19C51BFB73B300A37FE7 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BF19C41BFB73B300A37FE7 /* MessageViewController.m */; };
-		B4BF19C81BFB73C500A37FE7 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BF19C71BFB73C500A37FE7 /* DiscoverViewController.m */; };
-		B4BF19CB1BFB73D200A37FE7 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BF19CA1BFB73D200A37FE7 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +40,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B40711FD1C008C0B00B75C53 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		B40711FE1C008C0B00B75C53 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		B43133341BFE166700EFCCB5 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
 		B43133351BFE166700EFCCB5 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
 		B43133371BFE1D6200EFCCB5 /* git_learning.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = git_learning.pch; sourceTree = "<group>"; };
+		B45B3CEA1C03505C008DB301 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B45B3CEB1C03505C008DB301 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B45B3CED1C03509C008DB301 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		B45B3CEE1C03509C008DB301 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		B45B3CF01C0350CE008DB301 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		B45B3CF11C0350CE008DB301 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		B45B3CF31C0350E5008DB301 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		B45B3CF41C0350E5008DB301 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		B45B3CF61C036607008DB301 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		B45B3CF71C036607008DB301 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
 		B472F1EE1BF848AA00B7A977 /* git_learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = git_learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B472F1F21BF848AA00B7A977 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B472F1F41BF848AA00B7A977 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,14 +68,6 @@
 		B472F2121BF848AA00B7A977 /* git_learningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = git_learningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B472F2161BF848AA00B7A977 /* git_learningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_learningUITests.m; sourceTree = "<group>"; };
 		B472F2181BF848AA00B7A977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4BF19C01BFB73A500A37FE7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		B4BF19C11BFB73A500A37FE7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		B4BF19C31BFB73B300A37FE7 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
-		B4BF19C41BFB73B300A37FE7 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
-		B4BF19C61BFB73C500A37FE7 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
-		B4BF19C71BFB73C500A37FE7 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
-		B4BF19C91BFB73D200A37FE7 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
-		B4BF19CA1BFB73D200A37FE7 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,8 @@
 		B416EA351BFACEF10011C03B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B4BF19C61BFB73C500A37FE7 /* DiscoverViewController.h */,
-				B4BF19C71BFB73C500A37FE7 /* DiscoverViewController.m */,
+				B45B3CF01C0350CE008DB301 /* DiscoverViewController.h */,
+				B45B3CF11C0350CE008DB301 /* DiscoverViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -148,8 +154,8 @@
 		B416EA391BFACEF10011C03B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B4BF19C01BFB73A500A37FE7 /* HomeViewController.h */,
-				B4BF19C11BFB73A500A37FE7 /* HomeViewController.m */,
+				B45B3CEA1C03505C008DB301 /* HomeViewController.h */,
+				B45B3CEB1C03505C008DB301 /* HomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -183,6 +189,8 @@
 		B416EA3D1BFACEF10011C03B /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				B40711FD1C008C0B00B75C53 /* UIImage+Extension.h */,
+				B40711FE1C008C0B00B75C53 /* UIImage+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -192,6 +200,8 @@
 			children = (
 				B43133341BFE166700EFCCB5 /* MyTabBarController.h */,
 				B43133351BFE166700EFCCB5 /* MyTabBarController.m */,
+				B45B3CF61C036607008DB301 /* MyNavigationController.h */,
+				B45B3CF71C036607008DB301 /* MyNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -230,8 +240,8 @@
 		B416EA431BFACEF10011C03B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B4BF19C31BFB73B300A37FE7 /* MessageViewController.h */,
-				B4BF19C41BFB73B300A37FE7 /* MessageViewController.m */,
+				B45B3CED1C03509C008DB301 /* MessageViewController.h */,
+				B45B3CEE1C03509C008DB301 /* MessageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -263,8 +273,8 @@
 		B416EA471BFACEF10011C03B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B4BF19C91BFB73D200A37FE7 /* ProfileViewController.h */,
-				B4BF19CA1BFB73D200A37FE7 /* ProfileViewController.m */,
+				B45B3CF31C0350E5008DB301 /* ProfileViewController.h */,
+				B45B3CF41C0350E5008DB301 /* ProfileViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -473,13 +483,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4BF19C81BFB73C500A37FE7 /* DiscoverViewController.m in Sources */,
 				B472F1F61BF848AA00B7A977 /* AppDelegate.m in Sources */,
+				B45B3CF21C0350CE008DB301 /* DiscoverViewController.m in Sources */,
+				B45B3CF51C0350E5008DB301 /* ProfileViewController.m in Sources */,
+				B45B3CF81C036607008DB301 /* MyNavigationController.m in Sources */,
 				B472F1F31BF848AA00B7A977 /* main.m in Sources */,
-				B4BF19C51BFB73B300A37FE7 /* MessageViewController.m in Sources */,
-				B4BF19CB1BFB73D200A37FE7 /* ProfileViewController.m in Sources */,
+				B40711FF1C008C0B00B75C53 /* UIImage+Extension.m in Sources */,
 				B43133361BFE166700EFCCB5 /* MyTabBarController.m in Sources */,
-				B4BF19C21BFB73A500A37FE7 /* HomeViewController.m in Sources */,
+				B45B3CEF1C03509C008DB301 /* MessageViewController.m in Sources */,
+				B45B3CEC1C03505C008DB301 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
