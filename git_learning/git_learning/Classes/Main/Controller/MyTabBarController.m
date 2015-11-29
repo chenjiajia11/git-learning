@@ -11,6 +11,7 @@
 #import "MessageViewController.h"
 #import "DiscoverViewController.h"
 #import "ProfileViewController.h"
+#import "MyNavigationController.h"
 
 @interface MyTabBarController ()
 
@@ -40,16 +41,19 @@
 - (void)addOneChildVc:(UIViewController *)childVc title:(NSString *)title imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName
 {
     childVc.view.backgroundColor = RandomColor;
-    childVc.tabBarItem.title = title;
-    childVc.tabBarItem.image = [UIImage imageNamed:imageName];
+    childVc.title = title;
+//    childVc.tabBarItem.title = title;
+    childVc.tabBarItem.image = [UIImage imageWithName:imageName];
     
-    UIImage *selectedImage = [UIImage imageNamed:selectedImageName];
+    UIImage *selectedImage = [UIImage imageWithName:selectedImageName];
     if (iOS7) {
         selectedImage = [selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     }
     childVc.tabBarItem.selectedImage = selectedImage;
     
-    [self addChildViewController:childVc];
+    MyNavigationController *nvc = [[MyNavigationController alloc]initWithRootViewController:childVc];
+    
+    [self addChildViewController:nvc];
     
     
 }
